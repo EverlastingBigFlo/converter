@@ -16,6 +16,12 @@ section{
     background-position: center;
     .converterWrapper{
         background-color: rgb(60,28,61);
-        height: 50%;     
+        height: 50%;  
+        input::placeholder{
+            color: white;
+            font-size: 26px;
+        }
     }
+  
+
 }

@@ -11,12 +11,12 @@
 <body>
     <section class="d-flex justify-content-center align-items-center">
     <div class="col-12 col-md-6 col-lg-5 converterWrapper opacity-75 rounded-5 d-flex flex-column justify-content-center gap-4 align-items-center">
-        <input type="text" id="display" class=" form-control w-75 py-4 text-center bg-dark fs-3 text-white" aria-describedby="basic-addon1">
+        <input type="text" id="display" class=" form-control w-75 py-4 text-center bg-dark fs-3 text-white" aria-describedby="basic-addon1" placeholder="Result">
 
         <div class="container-fluid d-flex align-items-center justify-content-center gap-2">   
-            <input id="ratio" type="text" class="form-control w-50 py-3 bg-dark text-white" aria-describedby="basic-addon1">
+            <input id="ratio" type="text" class="form-control w-50 py-3 bg-dark text-white" aria-describedby="basic-addon1" placeholder="Metric">
 
-            <select id="converter" class="form-select form-select-lg py-2 w-25" aria-label=".form-select-lg example">
+            <select onclick="next()" id="converter" class="form-select form-select-lg py-2 w-25" aria-label=".form-select-lg example">
                 <option id="kilometre">Kilometre - Mile</option>
                 <option id="mile">Mile - Kilometre</option>
                 <option id="inches">Inch - Centimeter</option>

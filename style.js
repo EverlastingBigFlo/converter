@@ -34,4 +34,9 @@ function convert(){
          display.value = Number(b) * 2.205;
      }
  }
+
+ function next(){
+    display.value = '';
+    ratio.value = '';
+ }
     
